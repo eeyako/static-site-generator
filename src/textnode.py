@@ -10,7 +10,7 @@ class TextNode:
     def __eq__(self, other: TextNode) -> bool:
         return all([
             self.text == other.text,
-            self.text_type == other.text,
+            self.text_type == other.text_type,
             self.url == other.url
         ])
 
