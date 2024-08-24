@@ -67,5 +67,5 @@ class TestHTMLNode(unittest.TestCase):
         self.assertEqual(node.props, None)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
